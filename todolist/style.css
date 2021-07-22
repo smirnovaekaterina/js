@@ -1,122 +1,107 @@
 body {
-  background: #04A1BF;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
+	background: #04A1BF;
+	text-align: center;
+	font-family: 'Movavi Grotesque';
 }
-
 .intro {
-  margin: 30px 0px;
-  font-weight: bold;
+	margin: 30px 0px;
+	font-weight: bold;
 }
 
 h1 {
-  color: #ffffff;
-  text-transform: uppercase;
-  font-weight: 800;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 800;
 }
 
 p {
-  font-weight: 600;
+	font-weight: 600;
 }
 
 #first {
-  margin-top: 10px;
-  color: #FFCD5D;
+	margin-top: 10px;
+	color: #FFCD5D;
 }
 
 #second {
-  color: #51DF70;
+	color: #51DF70;
+
 }
 
 #third {
-  color: #000000;
-  margin-bottom: 30px;
+	color: #025F70;
+	margin-bottom: 30px;
 }
+
 
 #enter {
-  border: none;
-  padding: 5px 15px;
-  border-radius: 5px;
-  color: #127c91;
-  background-color: #025F70;
-  transition: all 0.75s ease;
-  -webkit-transition: all 0.75s ease;
-  -moz-transition: all 0.75s ease;
-  -ms-transition: all 0.75s ease;
-  -o-transition: all 0.75 ease;
-  font-weight: normal;
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #04A1BF;
+	background-color: #025F70;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
 }
 
-#enter:hover {
-  background-color: #02798F;
-  color: #FFCD5D;
+#enter:hover{
+	background-color: #02798F;
+	color: #FFCD5D;
 }
 
 ul {
-  overflow: hidden;
-  text-align: left;
-  margin-top: 20px;
+	text-align: left;
+	margin-top: 20px;
 }
 
+
 li {
-  position: relative;
-  list-style: none;
-  padding: 10px 20px;
-  color: #ffffff;
-  text-transform: capitalize;
-  font-weight: 600;
-  border: 2px solid #025f70;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  background: #4EB9CD;
-  transition: all 0.75s ease;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5 ease;
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #4EB9CD;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
 }
 
 li:hover {
-  background: #76CFE0;
+	background: #76CFE0;
 }
 
 li > button {
-  font-weight: normal;
-  background: none;
-  border: none;
-  float: right;
-  color: #025f70;
-  font-weight: 800;
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
 }
 
 input {
-  border-radius: 5px;
-  min-width: 65%;
-  padding: 5px;
-  border: none;
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
 }
+
 
 .done {
-  background: #086d1d !important;
-  color: #03310d;
+	background: #51DF70 !important;
+	color: #00891E;
 }
 
-@keyframes fadeout {
-  0% {
-    left: 0%;
-    opacity: 100%;
-  }
-  100% {
-    left: 100%;
-    opacity: 0%;
-    display: none;
-  }
-}
 .delete {
-  left: 0%;
-  opacity: 100%;
-  animation-name: fadeout;
-  animation-duration: 0.3s;
+	display: none;
 }
-
-/*# sourceMappingURL=style.css.map */

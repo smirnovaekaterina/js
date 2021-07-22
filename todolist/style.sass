@@ -1,106 +1,132 @@
-body
-    background: #04A1BF
-    text-align: center
-    font-family: 'Open Sans', sans-serif
+body {
+  background: #6b7b8c;
+  text-align: center;
+  font-family: 'Movavi Grotesque'; }
 
-.intro
-    margin: 30px 0px
-    font-weight: bold
+.row {
+  margin: auto;
+  width: 600px; }
 
-h1
-    color: #ffffff
-    text-transform: uppercase
-    font-weight: 800
+.listItems {
+  background-color: #3b4d61;
+  max-width: 650px;
+  min-height: 200px;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 25px; }
 
-p
-    font-weight: 600
+.d {
+  margin-left: auto;
+  font-size: 12px;
+  color: #26495c;
+  padding-right: 5px; }
 
-#first
-    margin-top: 10px
-    color: #FFCD5D
+.container {
+  margin-top: 100px;
+  margin-bottom: 100px; }
 
-#second
-    color: #51DF70
+.intro {
+  margin: 30px 0px;
+  font-weight: bold; }
 
+h1 {
+  color: #ef9d10;
+  text-transform: capitalize;
+  font-weight: 800;
+  font-size: 70px;
+  font-family: 'Movavi Grotesque'; }
 
-#third
-    color: #025F70
-    margin-bottom: 30px
+p {
+  font-weight: 600; }
 
+#first {
+  margin-top: 10px;
+  color: #000000; }
 
-#enter
-    border: none
-    padding: 5px 15px
-    border-radius: 5px
-    color: #04A1BF
-    background-color: #025F70
-    transition: all 0.75s ease
-    -webkit-transition: all 0.75s ease
-    -moz-transition: all 0.75s ease
-    -ms-transition: all 0.75s ease
-    -o-transition: all 0.75 ease
-    font-weight: normal
+#second {
+  color: #ffffff; }
 
-#enter:hover
-    background-color: #02798F
-    color: #FFCD5D
+#third {
+  color: #3d3faa;
+  margin-bottom: 30px; }
 
-ul
-    overflow: hidden
-    text-align: left
-    margin-top: 20px
+#enter {
+  border: none;
+  padding: 5px 15px;
+  border-radius: 50%;
+  color: #ef9d10;
+  background-color: #3b4d61;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75 ease;
+  font-weight: normal; }
 
+#enter:hover {
+  background-color: #e5e5dc;
+  color: #FFCD5D; }
 
-li
-    position: relative
-    list-style: none
-    padding: 10px 20px
-    color: #ffffff
-    text-transform: capitalize
-    font-weight: 600
-    border: 2px solid #025f70
-    border-radius: 5px
-    margin-bottom: 10px
-    background: #4EB9CD
-    transition: all 0.75s ease
-    -webkit-transition: all 0.5s ease
-    -moz-transition: all 0.5s ease
-    -ms-transition: all 0.5s ease
-    -o-transition: all 0.5 ease
+ul {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px; }
 
-li:hover
-    background: #76CFE0
+@keyframes li-enter {
+  from {
+    transform: translateY(500px); }
+  to {
+    transform: translateY(0px); } }
 
-li > button
-    font-weight: normal
-    background: none
-    border: none
-    float: right
-    color: #025f70
-    font-weight: 800
+li {
+  width: 100%;
+  margin: auto;
+  list-style: none;
+  padding: 10px 20px;
+  color: #ef9d10;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid #26495c;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  background: #6b7b8c;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5 ease;
+  animation: 0.4s ease li-enter; }
+  li:hover {
+    transform: scale(1.05); }
+  li:last-child {
+    margin-bottom: 0; }
 
-input
-    border-radius: 5px
-    min-width: 65%
-    padding: 5px
-    border: none
+li:hover {
+  background: #c4a35a;
+  border: #ef9d10; }
 
+li > button {
+  font-weight: normal;
+  background: none;
+  border: none;
+  float: right;
+  color: #4d4b70;
+  font-weight: 800; }
 
-.done
-    background: #51DF70 !important
-    color: #00891E
+input {
+  border-radius: 12px;
+  min-width: 65%;
+  padding: 5px;
+  border: none; }
 
-@keyframes fadeout
-    0%
-        left: 0%
-        opacity: 100%
-    100%
-        left: 100%
-        opacity: 0%
-        display: none
+.done {
+  background: #c4a35a !important;
+  border: #e5e5dc;
+  color: #6b7b8c; }
 
-.delete
-    left: 0%
-    opacity: 100%
-    animation-name: fadeout
-    animation-duration: 0.3s
+.delete {
+  display: none; }

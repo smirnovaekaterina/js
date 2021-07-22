@@ -1,0 +1,132 @@
+body {
+  background: #6b7b8c;
+  text-align: center;
+  font-family: 'Movavi Grotesque'; }
+
+.row {
+  margin: auto;
+  width: 600px; }
+
+.listItems {
+  background-color: #3b4d61;
+  max-width: 650px;
+  min-height: 200px;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 25px; }
+
+.d {
+  margin-left: auto;
+  font-size: 12px;
+  color: #26495c;
+  padding-right: 5px; }
+
+.container {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.intro {
+  margin: 30px 0px;
+  font-weight: bold; }
+
+h1 {
+  color: #ef9d10;
+  text-transform: capitalize;
+  font-weight: 800;
+  font-size: 70px;
+  font-family: 'Movavi Grotesque'; }
+
+p {
+  font-weight: 600; }
+
+#first {
+  margin-top: 10px;
+  color: #000000; }
+
+#second {
+  color: #ffffff; }
+
+#third {
+  color: #3d3faa;
+  margin-bottom: 30px; }
+
+#enter {
+  border: none;
+  padding: 5px 15px;
+  border-radius: 50%;
+  color: #ef9d10;
+  background-color: #3b4d61;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75 ease;
+  font-weight: normal; }
+
+#enter:hover {
+  background-color: #e5e5dc;
+  color: #FFCD5D; }
+
+ul {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px; }
+
+@keyframes li-enter {
+  from {
+    transform: translateY(500px); }
+  to {
+    transform: translateY(0px); } }
+
+li {
+  width: 100%;
+  margin: auto;
+  list-style: none;
+  padding: 10px 20px;
+  color: #ef9d10;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid #26495c;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  background: #6b7b8c;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5 ease;
+  animation: 0.4s ease li-enter; }
+  li:hover {
+    transform: scale(1.05); }
+  li:last-child {
+    margin-bottom: 0; }
+
+li:hover {
+  background: #c4a35a;
+  border: #ef9d10; }
+
+li > button {
+  font-weight: normal;
+  background: none;
+  border: none;
+  float: right;
+  color: #4d4b70;
+  font-weight: 800; }
+
+input {
+  border-radius: 12px;
+  min-width: 65%;
+  padding: 5px;
+  border: none; }
+
+.done {
+  background: #c4a35a !important;
+  border: #e5e5dc;
+  color: #6b7b8c; }
+
+.delete {
+  display: none; }
